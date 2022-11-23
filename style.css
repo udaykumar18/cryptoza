@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0b0701;
+  color: white;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+a {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+
+/* ############################ UTILITY CLASSES ###########################  */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flow-root;
+}
+.flex {
+  display: flex;
+}
+.align-items {
+  align-items: center;
+}
+.justify-content {
+  justify-content: space-between;
+}
+.spacearound {
+  justify-content: space-around;
+}
+.text-align {
+  text-align: center;
+}
+
+.w-5 {
+  width: 50%;
+}
+/* ######################## HEADER ######################3  */
+header {
+  width: 100%;
+  height: auto;
+  padding: 2.5rem 0;
+}
+
+header .logo {
+  width: 138px;
+  height: 31;
+}
+header.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header .menu {
+  margin-left: 2.5rem;
+}
+
+header .menu ul li a {
+  display: inline-block;
+  color: #bebfc5;
+  margin-right: 3rem;
+  font-weight: 500;
+}
+
+header .header-buttons a {
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+
+header .header-buttons .get-started {
+  background-color: #febf17;
+  padding: 1.4rem 3rem;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+header .header-buttons .sign-btn {
+  border: 1px solid #febf17;
+  padding: 1.4rem 3rem;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ############################ HERO ##############################3  */
+
+.hero .hero-content h2 {
+  color: #fefeff;
+  font-size: 6rem;
+}
+.hero .hero-content p {
+  color: #fefeff;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  color: #bebfc5;
+}
+
+.hero .hero-content .hero-buttons {
+  margin-top: 3rem;
+}
+.hero .hero-content .hero-buttons .get-started {
+  color: #fff;
+  background-color: #febf17;
+  padding: 1.4rem 2.5rem;
+  margin-right: 2rem;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.hero .hero-content .hero-buttons .how-it-works .icon {
+  font-size: 5rem;
+  position: relative;
+  top: 2rem;
+  color: white;
+}
+.hero .hero-content .hero-buttons .how-it-works .title {
+  color: #fefeff;
+  position: relative;
+  left: -7px;
+}
+.hero .hero-img {
+  width: 799px;
+  height: auto;
+}
+
+.hero .hero-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* ###################################### PROMO ###################  */
+
+.promo {
+  margin-top: 10rem;
+}
+.promo .heading {
+  margin: 0 auto;
+  color: #fefeff;
+  margin-bottom: 5rem;
+}
+
+.promo .heading h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.promo .heading p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #bebfc5;
+}
+
+.promo .promo-cards .card {
+  width: 373px;
+  height: auto;
+  background-color: #202021;
+  padding: 4rem 4rem;
+}
+.promo .promo-cards .card .main-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 70px;
+  font-size: 3rem;
+  border-radius: 3rem;
+  text-align: center;
+  background-color: #3a3b3a;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.promo .promo-cards .card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.promo .promo-cards .card p {
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  margin-bottom: 1rem;
+  color: #bebfc5;
+}
+
+.promo .promo-cards .card .explore-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+}
+.promo .promo-cards .card .explore-more .icon {
+  position: relative;
+  top: 3px;
+}
+
+/* #####################################3 STATS ##############################3  */
+
+.stats {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.stats .stats-content {
+  width: 50%;
+  height: auto;
+}
+
+.stats .stats-content h2 {
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+.stats .stats-content p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: #bebfc5;
+}
+.stats .stats-content .stats-boxs {
+  margin-top: 3rem;
+}
+
+.stats .stats-content .stats-boxs .box {
+  background-color: #212020;
+  width: 150px;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  margin-right: 5rem;
+}
+.stats .stats-content .stats-boxs .box h3 {
+  font-size: 2.4rem;
+}
+.stats .stats-content .stats-boxs .box p {
+  margin-top: 0.1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.stats .stats-img {
+  width: 550px;
+  height: 300px;
+}
+
+.stats .stats-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* ############################### MARKET ##############################3  */
+
+.market {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.market .heading h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.market .heading p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #bebfc5;
+}
+
+/* ##########3 table ####### */
+
+.market .market-table {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  border-collapse: collapse;
+}
+
+.market .market-table .table-head {
+  background-color: #333232;
+}
+.market .market-table .table-head .table-heading {
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.market .market-table .table-body {
+  text-align: center;
+  background-color: #1e1e1f;
+}
+.market .market-table .table-body .table-row {
+  border-bottom: 1px dotted #3a3b3a;
+}
+.market .market-table .table-body .table-data {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.market .market-table .table-body .table-data img {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.market .market-table .table-body .table-data .coin-name {
+  position: relative;
+  right: 7rem;
+}
+
+.market .market-table .table-body .table-data .coin-name h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0rem;
+}
+.market .market-table .table-body .table-data .coin-name .coin-short {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* ##############################3 READ REVIEWS #######################3  */
+
+.read-reviews {
+  background-color: #212121;
+  padding: 2rem 0;
+  margin-bottom: 10rem;
+}
+.read-reviews .heading h2 {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.read-reviews .heading p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #bebfc5;
+  margin-bottom: 3rem;
+}
+
+.read-reviews .review-btn {
+  display: inline-block;
+  margin-bottom: 3rem;
+  background-color: #febf17;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 30px;
+}
+
+.read-reviews .review-btn .icon {
+  position: relative;
+  top: 3px;
+}
+
+/* ##############################3 INSTRUCTIONS ##########################33  */
+
+.instructions .heading h2 {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+}
+
+.instructions .heading p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #bebfc5;
+  margin-bottom: 3rem;
+}
+
+.instructions .instruction-cards .card {
+  width: 275px;
+  height: auto;
+  background-color: #212121;
+  padding: 3rem 3rem;
+  border-radius: 10px;
+}
+
+.instructions .instruction-cards .card .card-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #0b0701;
+  padding: 1.2rem;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+.instructions .instruction-cards .card .card-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.instructions .instruction-cards .card p {
+  font-size: 1.4rem;
+  color: #bebfc5;
+  margin-top: 1rem;
+  line-height: 2.8rem;
+}
+
+/* #####################################3 APP DOWNLOAD ########################3  */
+
+.app {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.app .app-box {
+  background-color: #212121;
+  padding: 3rem 8rem;
+  border-radius: 20px;
+}
+
+.app .app-box .app-content {
+  width: 50%;
+}
+.app .app-box .app-content h2 {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.app .app-box .app-content p {
+  color: #bebfc5;
+}
+
+.app .app-box .app-content .app-buttons {
+  margin-top: 3rem;
+}
+
+/* #### PLAYSTORE-BUTTON #### */
+
+.app .app-box .app-content .app-buttons .playstore-btn {
+  background-color: #febf17;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+}
+.app .app-box .app-content .app-buttons .playstore-btn .icon {
+  font-size: 3rem;
+  position: relative;
+  top: 3px;
+}
+.app .app-box .app-content .app-buttons .playstore-btn .title {
+  margin-left: 1rem;
+}
+.app .app-box .app-content .app-buttons .playstore-btn h3 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.app .app-box .app-content .app-buttons .playstore-btn p {
+  color: white;
+  font-size: 1.2rem;
+}
+/* ###### APPSTORE-BUTTON ####  */
+
+.app .app-box .app-content .app-buttons .applestore-btn {
+  background-color: #febf17;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  position: relative;
+  right: 12rem;
+}
+.app .app-box .app-content .app-buttons .applestore-btn .icon {
+  font-size: 3rem;
+  position: relative;
+  top: 3px;
+}
+.app .app-box .app-content .app-buttons .applestore-btn .title {
+  margin-left: 1rem;
+}
+.app .app-box .app-content .app-buttons .applestore-btn h3 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.app .app-box .app-content .app-buttons .applestore-btn p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.app .app-box .app-img {
+  padding: 2rem 5rem;
+}
+
+/* ##############################3 FOOTER ################################  */
+
+.footer-top {
+  margin-bottom: 10rem;
+}
+.footertop-container {
+  width: 600px;
+  margin: 0 auto;
+  display: flow-root;
+}
+
+footer .footer-top a img {
+  margin-bottom: 2rem;
+}
+footer .footer-top p {
+  font-size: 1.6rem;
+  color: #bebfc5;
+  margin-bottom: 2rem;
+}
+footer .footer-top .footer-menu {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer .footer-top .footer-menu ul li a {
+  color: white;
+  font-weight: 600;
+}
+
+footer .footer-top h2 {
+  margin-top: 3rem;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+footer .footer-top .social-media ul li {
+  width: 50px;
+  height: 50px;
+}
+footer .footer-top .social-media ul {
+  width: 260px;
+  margin: 0 auto;
+}
+footer .footer-top .social-media ul li a {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #212121;
+  border-radius: 50px;
+  font-size: 2rem;
+  display: inline-block;
+  line-height: 56px;
+}
+
+/* #### footer bottom ##########3  */
+
+footer .footer-bottom {
+  margin: 3rem 0;
+}
+footer .footer-bottom ul li a {
+  color: white;
+  display: inline-block;
+  margin-right: 2rem;
+}
